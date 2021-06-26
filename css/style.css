@@ -1,66 +1,16 @@
 
-.megamenu {
-  position: static;
-}
 
-.megamenu .dropdown-menu {
-  background: none;
-  border: none;
-  width: 100%;
-}
-
-body {
-  background: #eaafc8;
-  background: -webkit-linear-gradient(to right, #eaafc8, #654ea3);
-  background: linear-gradient(to right, #eaafc8, #654ea3);
-  min-height: 100vh;
-}
-
-code {
-  color: #745eb1;
-  background: #fff;
-  padding: 0.1rem 0.2rem;
-  border-radius: 0.2rem;
-}
 
 .text-uppercase {
   letter-spacing: 0.08em;
 }
 
-hr.dashed {
-    border-top: 2px dashed #999;
-}
-
-hr.dotted {
-    border-top: 2px dotted #999;
-}
 
 hr.solid {
     border-top: 2px solid #999;
 }
 
 
-hr.hr-text {
-  position: relative;
-    border: none;
-    height: 1px;
-    background: #999;
-}
-
-hr.hr-text::before {
-    content: attr(data-content);
-    display: inline-block;
-    background: #fff;
-    font-weight: bold;
-    font-size: 0.85rem;
-    color: #999;
-    border-radius: 30rem;
-    padding: 0.2rem 2rem;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
 
 
 
@@ -105,8 +55,8 @@ body {
 /* scrollbar handle */
 .custom-scrollbar-css::-webkit-scrollbar-thumb {
   border-radius: 1rem;
-  background-color: #00d2ff;
-  background-image: linear-gradient(to top, #00d2ff 0%, #3a7bd5 100%);
+  background-color: white;
+  background-image: linear-gradient(to top, whitesmoke 0%, grey 100%);
 }
 
 
@@ -119,8 +69,7 @@ body {
 */
 body {
   min-height: 100vh;
-  background-color: #00d2ff;
-  background-image: linear-gradient(to right, #00d2ff 0%, #3a7bd5 100%);
+  background-color: white;
 }
 
 .hover {
@@ -421,3 +370,12 @@ body {
   background-color: #fafafa;
 }
 
+
+.image-style {
+    
+    width: 500px;
+    height: 980px;
+    object-fit: cover;
+    object-position: 50% 50%;
+
+}
