@@ -1,3 +1,5 @@
+var scroll = new SmoothScroll('a[href*="#"]');
+
 $(function() {
   /* Rounded Dots Dark */
   $("#content-1").mCustomScrollbar({
