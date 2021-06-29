@@ -429,7 +429,7 @@ body {
   display: flex;
 }
 
-.split-item  img{
+.split-item {
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
