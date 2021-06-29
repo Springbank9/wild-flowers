@@ -408,8 +408,95 @@ body {
 
 }
 
-/* Accredited bodies */
 
 
+body {
+  padding: 0;
+  margin: 0;
+  background-color: transparent;
+  direction: rtl;
+}
 
+.split-container {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.split-item  img{
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  
+  width: 50%;
+  padding: 3em 5em 6em 5em;
+}
+
+.split-right {
+  -webkit-box-ordinal-group: 0;
+  -webkit-order: -1;
+  -ms-flex-order: -1;
+  order: -1;;
+  background-image: url(/images/glen-markie-view.jpeg);
+}
+
+#img-right{
+    -webkit-box-ordinal-group: 0;
+  -webkit-order: -1;
+  -ms-flex-order: -1;
+  order: -1;;
+  background-image: url(/images/glen-markie-view.jpeg);
+}
+
+.split-left {
+  background-image: url(/images/glen-markie-view.jpeg);
+  color: #fff; 
+}
+
+ img {
+  border: 5px solid rgba(0,0,0,0.2);
+  width: 100%;
+  height: auto;
+  margin: 2em auto;
+  max-width: 100px;
+  display: block;
+}
+
+.split-item h3 {
+  text-align: center;
+  margin: 0 0 2em 0;
+  font-weight: 700;
+}
+
+.split-item p {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 500px;
+  line-height: 1.5;
+}
+
+.split-item a {
+  color: currentColor;
+  display: block;
+  text-align: center;
+  margin: 1em 0 0 0;
+  width: 100%;
+}
 
